@@ -1,10 +1,19 @@
 
 import './App.css';
+import Nav from './Components/Nav';
 
 function App() {
   return (
-    <div className="App">
-      <p className ='m-6'>Hi I am react</p>
+    <div className="app min-h-screen">
+
+        <Nav/>
+
+
+      <nav>Nav</nav>
+      <main>Main-section</main>
+      <footer>Footer</footer>
+
+
     </div>
   );
 }
