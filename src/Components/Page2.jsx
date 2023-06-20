@@ -36,7 +36,7 @@ function Page2() {
 
         <div>
         <img src="https://ik.imagekit.io/8sp02fxgg/switz.jpg?updatedAt=1687177601264" alt="" />
-        <button className='switz'>SwitzerLand</button>
+        <Link  to='/Swizpage'><button className='switz'>SwitzerLand</button></Link>
         </div>
 
 

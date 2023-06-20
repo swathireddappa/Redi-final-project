@@ -11,6 +11,7 @@ import Itlpage from './Components/Itlpage';
 import Barcpage from './Components/Barcpage';
 import Pragpage from './Components/Pragpage';
 import Gdanskpage from './Components/Gdanskpage';
+import Swizpage from './Components/Swizpage';
 
 
 function App() {
@@ -24,12 +25,13 @@ function App() {
       
       <Routes>
       <Route path ='/'  element={<Main />}> </Route>
-      <Route path ='/page2'  element={<Page2 user ={user}/>}> </Route>
+      <Route path ='/page2'  element={<Page2 user ={user} /> }> </Route>
       <Route path= '/munpage' element={<Munpage />}/> 
       <Route path ='/itlpage' element={<Itlpage />} />
       <Route path ='/barcpage' element={<Barcpage />}/>
       <Route path ='/pragpage' element ={<Pragpage />} />
       <Route path='/gdanskpage' element={<Gdanskpage />} />
+      <Route  path ='/swizpage' element={<Swizpage />}/>
       </Routes>
 
       <Footer></Footer>
