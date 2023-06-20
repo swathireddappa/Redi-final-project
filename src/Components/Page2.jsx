@@ -11,29 +11,27 @@ function Page2() {
     <div className="image">
         <div>
         <img src="https://ik.imagekit.io/8sp02fxgg/mun.jpg?updatedAt=1687177946704" alt="" />
-        <Link to ='/Munpage' className="munich">Munich</Link>
+        <Link to ='/Munpage' ><button className="munich">Munich</button></Link>
         </div>
         
         <div>
         <img src="https://ik.imagekit.io/8sp02fxgg/itl.webp?updatedAt=1687174954380" alt="" />
-        <Link to='/itlpage' className="italy" >Italy</Link>
+        <Link to='/itlpage'> <button className="italy">Italy</button></Link>
         </div>
 
         <div>
         <img src="https://ik.imagekit.io/8sp02fxgg/barv.jpg?updatedAt=1687175583465" alt="" />
-
-         <button className='barcelona'> Barcelona</button>
-
+        <Link to='/Barcpage'><button className='barcelona'> Barcelona</button></Link>
         </div>
 
         <div>
         <img src="https://ik.imagekit.io/8sp02fxgg/prg.jpg?updatedAt=1687175771155" alt="" />
-        <button className='prague'>Prague</button>
+        <Link to='/Pragpage'><button className='prague'>Prague</button></Link>
         </div>
 
         <div>
         <img src="https://ik.imagekit.io/8sp02fxgg/gdansk.jpg?updatedAt=1687177426964" alt="" />
-       <button className='gdansk'>Gadansk</button>
+        <Link to='/Gdanskpage'><button className='gdansk'>Gadansk</button></Link>
         </div>
 
         <div>
