@@ -6,8 +6,6 @@ function Page2() {
     
    
   return (
-
-
     <div className="image">
         <div>
         <img src="https://ik.imagekit.io/8sp02fxgg/mun.jpg?updatedAt=1687177946704" alt="" />
