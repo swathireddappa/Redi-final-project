@@ -1,6 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Barcpage() {
+
+
+
   return (
     <div>
          <h2 className='barche'>Barcelona</h2>
@@ -17,7 +21,7 @@ function Barcpage() {
           and famous for Gaudí and other Art Nouveau architecture, 
           Barcelona is one of Europe's trendiest cities.
           </p>
-          <button className='barcbtn'>Back</button>
+           <Link to ="/"><button  className='barcbtn'>Back</button></Link>
         </div>
 
 
