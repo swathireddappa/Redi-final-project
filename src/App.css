@@ -145,7 +145,7 @@ h2{
     color: darkblue;
     font-style: italic;
     font-weight: bolder;
-    font-size: larger;
+    font-size: xx-large;
     text-align: center;
     text-decoration: underline;
     text-shadow: 2px;
@@ -170,4 +170,153 @@ h2{
     padding-top: 10px;
     top: 3px;
 }
+.itlimg1{
+    background-color: rgb(244, 238, 238);
+    margin-top: 10px;
+    height: 430px;
+    width: 430px;
+    margin-left: 30px;
+}
+.itl1 {
+    text-align: center;
+    height: 370px;
+    width:370px;
+    margin-left: 28px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.itlimg2 {
+    background-color: rgb(244, 238, 238);
+    margin-top: 30px;
+    height: 430px;
+    width: 430px;
+    margin-top: 80px;
+}
+.itlimg3{
+    background-color: rgb(244, 238, 238);
+    margin-top: 30px;
+    height: 430px;
+    width: 430px;
+    margin-right: 20px;
+    margin-top: 130px;
+}
+.itl2{
+    text-align: center;
+    height: 370px;
+    width:370px;
+    margin-left: 30px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+    margin-top: 26px;
+}
 
+.itl3{
+    text-align: center;
+    height: 370px;
+    width:370px;
+    margin-left: 30px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.italyp{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+}
+.itapg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(https://wallpapers.com/images/hd/pastel-plain-blue-color-16iliay4xplcdmwl.jpg) ;
+}
+
+.italp{
+    color:rgb(255, 0, 106);
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.h2ita{
+    color: darkblue;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px;
+    margin-top: 20px;
+}
+.italbak{
+    height: 50px;
+    width: 200px;
+    color: brown;
+    background-color: gray;
+    margin-left: 250px;
+    border: 2px;
+    border-radius: 6px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
+.barce{
+    display: flex;
+    flex-direction: column;
+    height:300px ;
+    width: 350px;
+    border: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+.barc1{
+    height: 140px;
+    width: 200px;
+    border-radius: 10px;
+}
+.barc2{
+    height: 160px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+.barc3{
+    height: 300px;
+    width: 130px;
+    margin-left: 203px;
+    margin-top: -300px;
+    border-radius: 10px;
+}
+.barcdes{
+    color: brown;
+    font-style: italic;
+    font-weight:bold ;
+    text-align: center;
+    padding: 18px;
+}
+.barcbtn{
+    height: 60px;
+    width: 100px;
+    border-radius: 7px;
+    background-color: rgb(245, 221, 221);
+}
+.barche{
+    color: brown;
+    font-size: large;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: left;
+}
