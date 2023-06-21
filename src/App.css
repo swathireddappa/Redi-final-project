@@ -3,19 +3,16 @@
     background-color:whitesmoke;
     color: red;
 }
-
 .footer{
 height: 60px;
 background-color:rgb(144, 221, 221);
 }
-
 .main{
     background-image: 
     url(https://w0.peakpx.com/wallpaper/23/602/HD-wallpaper-travelling-around-big-ben-famous-statue-of-liberty-travel-world.jpg);
      height: 100vh;
     background-repeat: no-repeat; 
 }
-
 .btn-exp{
     height: 40px;
     width: 100px;
@@ -25,7 +22,6 @@ background-color:rgb(144, 221, 221);
     border: 1px solid black;
     border-radius: 5px;
 }
-
 .munich{
     color:blue;
    background-color: azure;
@@ -92,41 +88,7 @@ background-color:rgb(144, 221, 221);
     font-size: large;
     font-weight: bold;
 }
-.mchimg1{
-    background-color: aliceblue;
-    border: 2px  ;
-    border-radius: 10px ; 
-}
-.mchimg2{
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-}
-.img2{
-    height: 200px;
-    width: 190px;
-    border: 2px ;
-    border-radius: 10px  ;
-}
-.mchimg3{
-    display: flex;
-    flex-direction: row;
-    margin-top: 9px;
-}
-.img3{
-    height: 200px;
-    width: 190px;
-    border: 2px ;
-    border-radius: 10px  ;
-}
-.mchpara{
-    color: rgb(103, 103, 248);
-    font-style: italic;
-    font-family: cursive;
-    font-weight: bold;
-    padding-top: 10px;
-    top: 3px;
-}
+
 .mchhme{
     height: 50px;
     width: 100px;   
@@ -150,26 +112,7 @@ h2{
     text-decoration: underline;
     text-shadow: 2px;
 }
-.munpage{
-    padding: 10px;
-    background-color:azure;
-}
-.mchpara2{
-    color: rgba(71, 71, 239, 0.619);
-    font-style: italic;
-    font-family: cursive;
-    font-weight: bold;
-    padding-top: 10px;
-    top: 3px;
-}
-.mchpara3{
-    color: rgb(83, 83, 196);
-    font-style: italic;
-    font-family: cursive;
-    font-weight: bold;
-    padding-top: 10px;
-    top: 3px;
-}
+
 .itlimg1{
     background-color: rgb(244, 238, 238);
     margin-top: 10px;

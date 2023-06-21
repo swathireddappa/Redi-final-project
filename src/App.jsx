@@ -5,21 +5,24 @@ import Main from './Components/Main';
 import Nav from './Components/Nav';
 import {Routes, Route} from 'react-router-dom'
 import Page2 from './Components/Page2';
-import { useState } from 'react';
+import {  useState } from 'react';
 import Munpage from './Components/Munpage';
 import Itlpage from './Components/Itlpage';
 import Barcpage from './Components/Barcpage';
 import Pragpage from './Components/Pragpage';
 import Gdanskpage from './Components/Gdanskpage';
 import Swizpage from './Components/Swizpage';
+import Userreg from './Loginpages.jsx/Userreg';
+
+
 
 
 function App() {
   const [user, setuser] = useState()
-
-  
+ 
   return (
     <div className="app">
+     
 
         <Nav />
       
@@ -32,6 +35,8 @@ function App() {
       <Route path ='/pragpage' element ={<Pragpage />} />
       <Route path='/gdanskpage' element={<Gdanskpage />} />
       <Route  path ='/swizpage' element={<Swizpage />}/>
+      <Route path= '/userreg' element={<Userreg />} />
+     
       </Routes>
 
       <Footer></Footer>
