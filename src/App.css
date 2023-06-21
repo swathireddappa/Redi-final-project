@@ -260,3 +260,48 @@ h2{
     font-weight: bolder;
     border-radius: 1px ;
 }
+.name {
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.email{
+    height: 40px;
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.contact{
+    height: 40px;
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.label{
+    font-weight: bold;
+    font-style: italic;
+}
+h4{
+    font-style: italic;
+    font-weight: bold;
+}
+.submit{
+    height: 40px;
+    width: 100px;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 2px solid;
+}

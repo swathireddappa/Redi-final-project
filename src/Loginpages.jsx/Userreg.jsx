@@ -5,6 +5,10 @@ function Userreg() {
 function submit(e){
 
     e.preventDefault()
+    const a = e.target.kids.value 
+    const b = e.target.adults.value 
+
+    const total = a + b 
     const name = e.target.name.value 
     const email = e.target.email.value 
     const number = e.target.contact.value 
@@ -12,7 +16,9 @@ function submit(e){
     const outdate = e.target.outdate.value 
     const city = e.target.city.value 
 
-    console.log(name, email , number,indate,outdate , city);
+    console.log(name, email , number,indate,outdate , city , total);
+
+    
 
 }
 
@@ -28,20 +34,30 @@ function submit(e){
 
                 <input className='name' type="text" name="name" id="" placeholder='Enter your Name' />
                <input  className='email' type="email" name="email" id="" placeholder='Enter the Email-Id' />
-               <input type="number" name='contact' id='' placeholder='Enter the contact number' />
-               <label htmlFor="">
+               <input className='contact' type="number" name="contact" id='' placeholder='Enter the contact number' />
+              
+              <label htmlFor="" className='label'>
+                Kids</label>
+                <input type="number" name="kids" id="" className='label' />
+                <label htmlFor="" className='label'>Adults</label>
+                <input type="number" name="adults" id="" className='label' />
+
+
+
+               <label htmlFor="" className='label'>
                 Enter the checkin date
                </label>
-               <input type="date" name="indate" id="" />
-               <label htmlFor="">
+               <input type="date" name="indate" id=""  />
+
+               <label htmlFor="" className='label'>
                 Enter the checkout date
                </label>
-               <input type="date" name="outdate" id="" />
+               <input type="date" name="outdate" id=""  />
                 
 
-                    
-
                 <h4>Select the city</h4>
+                    <div className='input'>
+
                 <span>Munich</span>
                 <input type="checkbox" name="city" id="" />
                 <span>Italy</span>
@@ -54,14 +70,12 @@ function submit(e){
                 <input type="checkbox" name="city" id="" />
                 <span>Paris</span>
                 <input type="checkbox" name="city" id="" />
-                
-
-                
-
-
+                    </div>
             
-                <button >Submit</button>
+                <button className='submit' >Submit</button>
+
             </form>
+
     </div>
      </>
 
