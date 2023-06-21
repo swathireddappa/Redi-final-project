@@ -5,7 +5,8 @@ import { useNavigate } from 'react-router-dom'
 function Gdanskpage() {
 
     const navigate = useNavigate()
-  function click(){
+
+    function click(){
     navigate('/page2')
 
   }
