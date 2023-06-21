@@ -11,7 +11,7 @@ import Itlpage from './Components/Itlpage';
 import Barcpage from './Components/Barcpage';
 import Pragpage from './Components/Pragpage';
 import Gdanskpage from './Components/Gdanskpage';
-import Swizpage from './Components/Swizpage';
+import Swizpage from './Components/Parispage';
 import Userreg from './Loginpages.jsx/Userreg';
 
 
