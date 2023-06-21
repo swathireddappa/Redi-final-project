@@ -1,7 +1,14 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 
 function Munpage() {
+
+  const navigate = useNavigate()
+ 
+  function click(){
+    navigate('/userreg')
+  }
+
   return (
     <div>
         <div className='prg1'>
@@ -22,7 +29,10 @@ function Munpage() {
             which flows through the middle of the city.</p>
           </div>
 
-          <Link to="/" ><button className="mchhme">Return</button></Link>
+          <Link to="/page2" ><button className="mchhme">Return</button></Link>
+              
+              <button onClick={click} > Book</button>
+
     </div>
   )
 }
