@@ -10,8 +10,9 @@ function submit(e){
     const number = e.target.contact.value 
     const indate = e.target.indate.value 
     const outdate = e.target.outdate.value 
+    const city = e.target.city.value 
 
-    console.log(name, email , number,indate,outdate);
+    console.log(name, email , number,indate,outdate , city);
 
 }
 
@@ -28,15 +29,38 @@ function submit(e){
                 <input className='name' type="text" name="name" id="" placeholder='Enter your Name' />
                <input  className='email' type="email" name="email" id="" placeholder='Enter the Email-Id' />
                <input type="number" name='contact' id='' placeholder='Enter the contact number' />
-               
-                <input className='intime' type="datetime-local" name="indate" id="" placeholder='Enter the Check-In' />
-                <input className='outime' type="datetime-local" name="outdate" id=""  placeholder='Enter the check-out date'/>
+               <label htmlFor="">
+                Enter the checkin date
+               </label>
+               <input type="date" name="indate" id="" />
+               <label htmlFor="">
+                Enter the checkout date
+               </label>
+               <input type="date" name="outdate" id="" />
+                
 
-                <button >Submit</button>
+                    
+
+                <h4>Select the city</h4>
+                <span>Munich</span>
+                <input type="checkbox" name="city" id="" />
+                <span>Italy</span>
+                <input type="checkbox" name="city" id="" />
+                <span>Barcelona</span>
+                <input type="checkbox" name="city" id="" />
+                <span>Prague</span>
+                <input type="checkbox" name="city" id="" />
+                <span>Gdansk</span>
+                <input type="checkbox" name="city" id="" />
+                <span>Paris</span>
+                <input type="checkbox" name="city" id="" />
                 
+
                 
+
 
             
+                <button >Submit</button>
             </form>
     </div>
      </>
