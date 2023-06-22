@@ -1,6 +1,14 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 function Itlpage() {
+
+const navigate = useNavigate()
+
+  function click(){
+    navigate('/userreg')
+  }
+
   return (
     <div className='itapg'>
           <h2 className='h2ita'>Italy</h2>
@@ -29,7 +37,7 @@ function Itlpage() {
           </p>
           <br />
           <button className='italbak'>Back</button>
-
+          <button onClick={click} className='book' > Book</button>
         </div>
 
     

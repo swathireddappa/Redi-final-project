@@ -10,6 +10,21 @@
     background-color:lightgray;
 
 }
+.book{
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+    color: blueviolet;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+}
+.book:hover{
+
+    color: red;
+    cursor: pointer;
+    font-size: x-large;
+}
 .app{
     display: flex;
    min-width: none;

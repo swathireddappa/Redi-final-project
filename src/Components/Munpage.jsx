@@ -31,7 +31,7 @@ function Munpage() {
 
           <Link to="/page2" ><button className="mchhme">Return</button></Link>
               
-              <button onClick={click} > Book</button>
+              <button onClick={click} className='book' > Book</button>
 
     </div>
   )

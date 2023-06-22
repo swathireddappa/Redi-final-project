@@ -13,7 +13,7 @@ import Pragpage from './Components/Pragpage';
 import Gdanskpage from './Components/Gdanskpage';
 import Swizpage from './Components/Parispage';
 import Userreg from './Loginpages.jsx/Userreg';
-import Userdetal from './Loginpages.jsx/Userdetal';
+import Userdetal from './Loginpages.jsx/lastpage';
 
 
 

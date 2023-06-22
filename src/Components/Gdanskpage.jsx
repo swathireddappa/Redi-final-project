@@ -39,6 +39,7 @@ function Gdanskpage() {
                  It is Poland's principal seaport and the country's fourth-largest metropolitan area.
                 </p>
                       <button onClick={click} className='gdbtn'>Back</button>
+                      <button onClick={click} className='book' > Book</button>
             </div>
     </div>
   

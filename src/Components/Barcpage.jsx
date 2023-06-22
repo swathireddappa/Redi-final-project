@@ -1,7 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 function Barcpage() {
+
+  const navigate = useNavigate()
+  function click(){
+    navigate('/userreg')
+  }
 
 
 
@@ -24,10 +29,12 @@ function Barcpage() {
           <p className='pgdesc'>Art Nouveau architecture, Barcelona is one of Europe's trendiest cities...</p>
         </div>
         
+        <button onClick={click} className='book' > Book</button>
 
 
 
-           <Link to ="/page2"><button  className='barcbtn'>Back</button></Link>
+
+           
         </div>
 
 

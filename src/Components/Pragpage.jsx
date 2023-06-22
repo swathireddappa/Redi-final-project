@@ -1,7 +1,16 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 function Pragpage() {
+
+const navigate = useNavigate()
+
+
+  function click(){
+    navigate('/userreg')
+  }
+
+
   return (
     <div>
       <h2>Prague</h2>
@@ -26,6 +35,7 @@ function Pragpage() {
           </div>
 
           <Link to="/" className="prrtbtn">Return</Link>
+          <button onClick={click} className='book' > Book</button>
 
 
        </div>

@@ -6,7 +6,7 @@ function Userreg({setCity }) {
 const navigate = useNavigate()
 function onclick(e){
     e.preventDefault()
-    navigate('/userdetal')
+    navigate('/lastpage')
 }
 
 
