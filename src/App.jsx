@@ -13,12 +13,15 @@ import Pragpage from './Components/Pragpage';
 import Gdanskpage from './Components/Gdanskpage';
 import Swizpage from './Components/Parispage';
 import Userreg from './Loginpages.jsx/Userreg';
+import Userdetal from './Loginpages.jsx/Userdetal';
 
 
 
 
 function App() {
   const [user, setuser] = useState()
+  const [city, setCity] = useState()
+  const [details, setDetails] = useState()
  
   return (
     <div className="app">
@@ -35,7 +38,8 @@ function App() {
       <Route path ='/pragpage' element ={<Pragpage />} />
       <Route path='/gdanskpage' element={<Gdanskpage />} />
       <Route  path ='/swizpage' element={<Swizpage />}/>
-      <Route path= '/userreg' element={<Userreg />} />
+      <Route path= '/userreg' element={<Userreg setCity={setCity} />} />
+      <Route path='/userdetal' element={<Userdetal />} />
      
       </Routes>
 
