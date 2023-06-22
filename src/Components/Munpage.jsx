@@ -10,7 +10,7 @@ function Munpage() {
   }
 
   return (
-    <div>
+    <div className='grow'>
         <div className='prg1'>
           <img className='imgp2' src="https://ik.imagekit.io/8sp02fxgg/munich2.webp?updatedAt=1686827607858" alt="" />
           <p className='pgdesc'>It is Bavaria's largest city 

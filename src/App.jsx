@@ -21,10 +21,10 @@ import Userdetal from './Loginpages.jsx/Userdetal';
 function App() {
   const [user, setuser] = useState()
   const [city, setCity] = useState()
-  const [details, setDetails] = useState()
- 
+  
+
   return (
-    <div className="app">
+    <div className="app  " >
      
 
         <Nav />
