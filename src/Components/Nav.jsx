@@ -8,6 +8,7 @@ function Nav() {
   function click(){
 
   navigate('/page2')
+  navigate('/adminpage')
    
   }
 
@@ -22,7 +23,7 @@ function Nav() {
     <div className='nav'>
     <button className='btn-exp' onClick={click}>Explore</button>
 
-    <ion-icon name="person"></ion-icon>
+    <ion-icon name="person" onClick={click}></ion-icon>
       
       </div>
   )
