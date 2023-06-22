@@ -1,8 +1,7 @@
 .nav{
    height: 100px;
-   
     background-color:whitesmoke;
-    color: red;
+    
 }
 .footer{
         border-radius: 7px;
@@ -204,6 +203,14 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     background-image:url(https://wallpapers.com/images/hd/pastel-plain-blue-color-16iliay4xplcdmwl.jpg) ;
+}
+.admin{
+    display: none;
+}
+
+.admin:hover{
+    
+    color: red ;
 }
 
 .italp{

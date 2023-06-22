@@ -14,8 +14,7 @@ import Gdanskpage from './Components/Gdanskpage';
 import Swizpage from './Components/Parispage';
 import Userreg from './Loginpages.jsx/Userreg';
 import Userdetal from './Loginpages.jsx/lastpage';
-
-
+import AdminPage from './Loginpages.jsx/AdminPage';
 
 
 function App() {
@@ -40,6 +39,7 @@ function App() {
       <Route  path ='/swizpage' element={<Swizpage />}/>
       <Route path= '/userreg' element={<Userreg setCity={setCity} />} />
       <Route path='/userdetal' element={<Userdetal />} />
+      <Route path='/adminpage' element={<AdminPage />} />
      
       </Routes>
 

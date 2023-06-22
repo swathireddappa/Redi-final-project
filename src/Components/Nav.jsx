@@ -23,7 +23,7 @@ function Nav() {
     <div className='nav'>
     <button className='btn-exp' onClick={click}>Explore</button>
 
-    <ion-icon name="person" onClick={click}></ion-icon>
+    <ion-icon name="person" onClick={click} className="admin"></ion-icon>
       
       </div>
   )
