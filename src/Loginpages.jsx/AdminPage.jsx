@@ -1,30 +1,49 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 function AdminPage() {
 
+    const [orders, setorders] = useState()
+
+    const navigate = useNavigate()
+
+        function submit(e){
     
-function submit(){
+            e.preventDefault()
+            // const email = e.target.email.value
+            // const password = e.target.password.value
+            // console.log(email);
+            // console.log(password);
+            
+            // const person = orders.find( i=> i.email === email)
+            // if(person) {
+            //     console.log("person found .");
+            //     console.log(person);
+            //     if(person.pass === password) {
+            //         setorders(person);
+            //    console.log("you can login");
+            //  }else {
+            //    console.log("password is wrong");
+            //  }
+            //  }else {
+            //      console.log("person not found");
+            //     }    
 
-        
 
+            navigate('/userdetail')
+            }
+            
+             return (
 
-
-    }
-
-
-  return (
-    <div className='adminpage'>
+             <div className='adminpage'>
         
               
-              <form action="">
-                <input className='label' type="email" name="email" id="" placeholder='Enter the Email' />
+            <form   onSubmit={submit} action="">
+             <input className='label' type="email" name="email" id="email" placeholder='Enter the Email' />
 
-                <input className='label' type='password' name="password" id=""  placeholder='Enter the password'/>
+            <input className='label' type='password' name="password" id="pass"  placeholder='Enter the password'/>
 
-                <button onSubmit={submit}>Login</button>
-            
-
-
+                <button type='submit'>Login</button>
               </form>
 
 

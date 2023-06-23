@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Userdetal() {
+function lastpage() {
 
 
 
@@ -17,4 +17,4 @@ function Userdetal() {
   )
 }
 
-export default Userdetal
+export default lastpage

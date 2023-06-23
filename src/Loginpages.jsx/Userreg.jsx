@@ -3,16 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 function Userreg({setCity }) {
 
-const navigate = useNavigate()
-function onclick(e){
-    e.preventDefault()
-    navigate('/lastpage')
-}
-
-
 function submit(e){
-
-
     e.preventDefault()
     const a = e.target.kids.value 
     const b = e.target.adults.value
@@ -22,7 +13,7 @@ function submit(e){
     const n = 70;
     const a1 = Number(a * n / 2) ;
     const b2 = Number(b * n) ;
-     let cost = Number(a1) + Number(b2) 
+     let cost = Number(a1) + Number(b2) ;
      
 
     const name = e.target.name.value 
@@ -33,16 +24,13 @@ function submit(e){
     
     const city = e.target.city 
     const i = e.target.italy.value
-
     console.log(name, email , number,indate,outdate , total, city , cost )
     console.log(i)
-
 }
 
 function changeCity (e) {
 setCity(e.target.value)
 }
- 
  
   return (
     <>
@@ -93,7 +81,10 @@ setCity(e.target.value)
                 <input type="checkbox" name="city" id="" value="paris" onChange={(c)=> changeCity(c)} />
                     </div>
             
-                <button className='submit'  onClick={onclick} >Submit</button>
+                <button className='submit'   >Submit</button>
+                
+
+
 
             </form>
 
