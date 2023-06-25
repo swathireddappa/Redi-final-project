@@ -1,12 +1,33 @@
 .nav{
    height: 100px;
-    background-color:whitesmoke;
-    
+    background-color:whitesmoke;  
 }
-.footer{
+.admin{
+    visibility: hidden;
+}
+.admin:hover{
+    visibility: visible;
+    color: brown;
+}
+/* .footer{
         border-radius: 7px;
     height:80px;
     background-color:lightgray;
+
+} */
+.image{
+    height: 380px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgb(204, 233, 233);  
+    padding: 10px; 
+    margin-top: 10px;
+}
+.munp{
+    height: 300px;
+    width: 280px;
+    margin-left: 30px;
+    margin-top: 15px;
 
 }
 .book{
@@ -36,12 +57,14 @@
 
 .btn-exp{
     height: 40px;
-    width: 100px;
-    background-color: gray;
+    width: 70px;
+    background-color: rgb(239, 181, 181);
     color: blue;
     font-style: italic;
     border: 1px solid black;
     border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
 }
 .munich{
     color:blue;
@@ -104,7 +127,7 @@
     height: 40px;
     width: 150px;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid ;
     border-radius: 8px; 
     font-size: large;
     font-weight: bold;
@@ -337,6 +360,22 @@ h4{
 
 .mainimage{
     height:fit-content ;  
+}
+.orders{
+    height: 250px;
+    width: 300px;
+    background-color: rgba(127, 255, 212, 0.473);
+    margin: 10px;
+    border: 2px  ;
+    border-radius: 6px;
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    color: brown;
+    padding: 10px;
+
+    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

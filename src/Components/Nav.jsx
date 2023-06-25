@@ -21,10 +21,31 @@ function Nav() {
   return (
 
     <div className='nav'>
-    <button className='btn-exp' onClick={click}>Explore</button>
-
+      <div className="navbar bg-base-100">
+  <div className="flex-1">
+    <a className="btn btn-ghost normal-case text-xl">Travel APP</a>
+  </div>
+  {/* <div className="flex-none">
+    <ul className="menu menu-horizontal px-1">
+      <li><a>Link</a></li>
+      <li>
+        <details>
+          <summary>
+            Parent
+          </summary>
+          <ul className="p-2 bg-base-100">
+            <li><a>Link 1</a></li>
+            <li><a>Link 2</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </div> */}
+  <button className='btn-exp' onClick={click}>Explore</button>
     <ion-icon name="person" onClick={click} className="admin"></ion-icon>
       
+</div>
+
       </div>
   )
 }
