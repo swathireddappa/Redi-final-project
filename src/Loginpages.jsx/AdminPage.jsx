@@ -30,7 +30,7 @@ function AdminPage() {
             //     }    
 
 
-            navigate('/userdetail')
+            navigate('/dashboard')
             }
             
              return (

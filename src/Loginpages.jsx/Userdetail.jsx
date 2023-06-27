@@ -8,13 +8,7 @@ function Userdetail({orders}) {
     <div>
       <h3>User Details</h3>
        
-       {/* {orders && orders.map(i=> 
-      
-       <li>{i.client}</li>)}
-      
-      {orders && orders.map(i=> <li>{i.amount} {i.phone}</li>)}
-      {orders && orders.map(i=> <li>{i.date}</li>)} */}
-      
+    
         {orders && orders.map(i=> <div className='orders'   >
           <p> Name : {i.name}</p>
           <p> Phone :{i.Contact}</p>

@@ -16,6 +16,8 @@ import Userreg from './Loginpages.jsx/Userreg';
 import AdminPage from './Loginpages.jsx/AdminPage';
 import Userdetail from './Loginpages.jsx/Userdetail';
 import axios from 'axios';
+import Dashboard from './Loginpages.jsx/Dashboard';
+import Amount from './Loginpages.jsx/Amount ';    
 
 
 function App() {
@@ -59,6 +61,8 @@ function App() {
       <Route path= '/userreg' element={<Userreg setCity={setCity} />} />
       <Route path='/adminpage' element={<AdminPage />} />
       <Route path='/userdetail' element={<Userdetail orders={orders}   /> } />
+      <Route path ='/dashboard' element={<Dashboard />} />
+      <Route path ='/amount' element={<Amount orders={orders} />} />
 
       </Routes>
 
