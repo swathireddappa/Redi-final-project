@@ -7,10 +7,12 @@ function Nav() {
 
   function click(){
 
-  navigate('/page2')
+  navigate('/page2')  
+}
+function go(){
+
   navigate('/adminpage')
-   
-  }
+}
 
  /* useEffect(()=>{
     if(user){
@@ -42,7 +44,7 @@ function Nav() {
     </ul>
   </div> */}
   <button className='btn-exp' onClick={click}>Explore</button>
-    <ion-icon name="person" onClick={click} className="admin"></ion-icon>
+    <ion-icon name="person" onClick={go} className="admin"></ion-icon>
       
 </div>
 

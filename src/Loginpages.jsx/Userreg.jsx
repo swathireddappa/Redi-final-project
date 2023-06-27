@@ -1,7 +1,8 @@
+import axios from 'axios'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-function Userreg({setCity }) {
+function Userreg({setCity , city}) {
 
 function submit(e){
     e.preventDefault()
@@ -22,10 +23,22 @@ function submit(e){
     const indate = e.target.indate.value 
     const outdate = e.target.outdate.value 
     
-    const city = e.target.city 
-    const i = e.target.italy.value
-    console.log(name, email , number,indate,outdate , total, city , cost )
-    console.log(i)
+    
+    // const city = e.target.city 
+    // const i = e.target.italy.value
+    // console.log(name, email , number,indate,outdate , total, city , cost )
+    // console.log(i)
+    axios.post("https://redi-finalproject-backend.onrender.com/orders",{
+      name: name,
+      email: email,
+      Contact: number,
+      kids : a,
+      adults: b,
+      Checkin: indate,
+      checkout: outdate,
+      cost: cost,
+      city: city
+    })
 }
 
 function changeCity (e) {

@@ -15,6 +15,48 @@
     background-color:lightgray;
 
 } */
+.amtdiv{
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkPBORh50bAzzWtCqITwFBqXpyAScfcQCIww&usqp=CAU);
+}
+
+
+.home{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    font-style: italic;
+    color: blue;
+    font-size: large;
+    cursor: pointer;
+}
+.home:hover{
+    color: gray;
+
+}
+.amnt{
+    text-align: center;
+
+    height: 100px;
+    width: 100px;
+    color: blue;
+    background-color: snow;
+    margin-left: 20px;
+    border: 1px solid black;
+    margin: 5px;
+}
+.btnplc{
+    background-color: lightgray;
+    color: brown;
+    height: 70px;
+    border: 6px;
+    border-radius: 2px;
+    width: 100px;
+    margin: 20px;
+}
 .image{
     height: 380px;
     width: 350px;
@@ -385,7 +427,55 @@ h4{
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+
+    .img{
+        padding: 150px;
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .image{
+        height: 500px;
+        width: 400px;
+    }
+    .munp{
+        height: 420px;
+        width: 330px;
+    }
+    .munich {
+        margin-left: 140px;
+        margin-top: 10px;
+        border-style: none;
+    }
+    .munich:hover{
+        color:darkcyan;
+    }
+    .italy{
+        margin-left: 140px;
+        margin-top: 10px;
+    }
+    .barcelona{
+        margin-left: 140px;
+        margin-top: 10px;
+    }
+    
+    .prague{
+        margin-left: 140px;
+        margin-top: 10px;
+    }
+    .gdansk{
+        margin-left: 140px;
+        margin-top: 10px;
+    }
+    .switz{
+        margin-left: 140px;
+        margin-top: 10px;
+    }
+}
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}

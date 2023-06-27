@@ -58,11 +58,11 @@ function App() {
       <Route path ='/pragpage' element ={<Pragpage />} />
       <Route path='/gdanskpage' element={<Gdanskpage />} />
       <Route  path ='/swizpage' element={<Swizpage />}/>
-      <Route path= '/userreg' element={<Userreg setCity={setCity} />} />
+      <Route path= '/userreg' element={<Userreg setCity={setCity} city={city} />} />
       <Route path='/adminpage' element={<AdminPage />} />
       <Route path='/userdetail' element={<Userdetail orders={orders}   /> } />
       <Route path ='/dashboard' element={<Dashboard />} />
-      <Route path ='/amount' element={<Amount orders={orders} />} />
+      <Route path ='/amount' element={<Amount orders={orders} setorders={setorders} />} />
 
       </Routes>
 
