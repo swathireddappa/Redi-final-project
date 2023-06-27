@@ -272,9 +272,7 @@ h2{
 .admin{
     display: none;
 }
-
 .admin:hover{
-    
     color: red ;
 }
 
@@ -456,24 +454,44 @@ h4{
     .italy{
         margin-left: 140px;
         margin-top: 10px;
+        border-style: none;
+    }
+    .italy:hover{
+        color:darkcyan;
     }
     .barcelona{
         margin-left: 140px;
         margin-top: 10px;
+        border-style: none;
     }
-    
+    .barcelona:hover{
+        color:darkcyan;
+    }
     .prague{
         margin-left: 140px;
         margin-top: 10px;
+        border-style: none;
+    }
+    .prague:hover{
+        color:darkcyan;
     }
     .gdansk{
         margin-left: 140px;
         margin-top: 10px;
+        border-style: none;
+    }
+    .gdansk:hover{
+        color:darkcyan;
     }
     .switz{
         margin-left: 140px;
         margin-top: 10px;
+        border-style: none;
     }
+    .switz:hover{
+        color:darkcyan;
+    }
+
 }
 
 
