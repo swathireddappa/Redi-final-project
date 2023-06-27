@@ -30,6 +30,8 @@ function Munpage() {
           </div>
 
           <Link to="/page2" ><button className="mchhme">Return</button></Link>
+
+          <img className='trip' src="https://ik.imagekit.io/8sp02fxgg/trip1.jpg?updatedAt=1687871218042" alt="" />
               
               <button onClick={click} className='book' > Book</button>
 

@@ -80,6 +80,7 @@
     background-color: white;
     height: 50px;
     width: 100px;
+    margin-right: 70px;
 }
 .book:hover{
 
@@ -433,7 +434,7 @@ h4{
         flex-direction: row;
         height: 500px;
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 60px;
     }
     .image{
         height: 500px;
@@ -491,7 +492,44 @@ h4{
     .switz:hover{
         color:darkcyan;
     }
-
+    .grow{
+        background-color:linen ;
+        border: 10px  ;
+        padding: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 60px;
+    }
+    .prg1{
+        height: 470px;
+        width: 390px;
+    }
+    .imgp2{
+        height:340px;
+        width: 320px; 
+    }
+    .prg2{
+        height: 470px;
+        width: 390px;
+    }
+    .mchhme{
+        color:  darkolivegreen;
+        border-style: none;
+        margin-left: 60px;
+    }
+    .mchhme:hover{
+        color: purple;
+        font-style: italic;
+        font-size:larger; 
+    }
+    .trip{
+        height: 100px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    
 }
 
 
