@@ -43,7 +43,7 @@ function AdminPage() {
 
             <input className='label' type='password' name="password" id="pass"  placeholder='Enter the password'/>
 
-                <button type='submit'>Login</button>
+                <button className='login' type='submit'>Login</button>
               </form>
 
 

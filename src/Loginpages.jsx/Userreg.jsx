@@ -44,6 +44,11 @@ function submit(e){
 function changeCity (e) {
 setCity(e.target.value)
 }
+const navigate =useNavigate()
+
+function go(){
+  navigate('/lastpage')
+}
  
   return (
     <>
@@ -52,10 +57,13 @@ setCity(e.target.value)
     <div>
         <h3>Please fill the below  " Details " ......</h3>
 
+      <div className='userreg'>
+
+
             <form  onSubmit={submit} action="">
 
-             <input className='name' type="text" name="name" id="" placeholder='Enter your Name' />
-             <input  className='email' type="email" name="email" id="" placeholder='Enter the Email-Id' />
+             <input className='name' type="text" name="name" id="" placeholder='Enter your Name' /> <br />
+             <input  className='email' type="email" name="email" id="" placeholder='Enter the Email-Id' /> <br />
              <input className='contact' type="number" name="contact" id='' placeholder='Enter the contact number' />
               
               <label htmlFor="" className='label'>
@@ -94,12 +102,10 @@ setCity(e.target.value)
                 <input type="checkbox" name="city" id="" value="paris" onChange={(c)=> changeCity(c)} />
                     </div>
             
-                <button className='submit'   >Submit</button>
-                
-
-
-
+                <button className='submit'  onClick={go}  >Submit</button>
+              
             </form>
+              </div>
 
     </div>
      </>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function lastpage() {
+function Lastpage() {
 
 
 
@@ -17,4 +17,4 @@ function lastpage() {
   )
 }
 
-export default lastpage
+export default Lastpage

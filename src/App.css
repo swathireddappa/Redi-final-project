@@ -49,13 +49,14 @@
     margin: 5px;
 }
 .btnplc{
-    background-color: lightgray;
-    color: brown;
+    background-color: rgb(196, 195, 195);
+    color:blue;
     height: 70px;
     border: 6px;
     border-radius: 2px;
-    width: 100px;
-    margin: 20px;
+    width: 80px;
+    margin: 80px;
+    text-align: center;
 }
 .image{
     height: 380px;
@@ -327,6 +328,7 @@ h2{
     border-radius: 10px;
     background-color: rgb(204, 233, 233);  
     padding: 1px; 
+    margin-top: 15px;
 }
 .pgdesc{
     color: indianred;
@@ -378,6 +380,14 @@ h2{
     border-radius: 4px;
     font-style: italic;
     font-weight: bolder;
+}
+.login{
+    color:blue;
+    height: 60px;
+    width: 100px;
+    border-radius: 2px;
+    font-style: italic;
+    font-weight: bold;
 }
 .contact{
     height: 40px;
@@ -547,6 +557,72 @@ h4{
         color: darkgreen;
         font-size: large;
     }
+    .btnplc{
+        color: blue;
+        background-color: lightblue;
+        height: 50px;
+        width: 90px;
+        display: flex;
+        font-style: italic;
+        font-weight: bold;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center; 
+        border-radius: 9px;   
+    }
+    .orders{
+        height: 70px;
+        width: 1200px;
+        display: flex;
+        flex-direction: row;
+        gap: 7px;
+    }
+    h3{
+        color: blue;
+        font-style: italic;
+        font-size: large;
+        font-weight:bold ;
+    }
+    .amnt{
+        color: blue;
+        border-style: none;
+        background-color: lavenderblush;
+        display: inline-block;
+        height: 70px;
+        width: 100px;
+        margin: 10px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .label{
+        height: 50px;
+        width: 200px;
+        text-align: center;
+        margin-left: 100px;
+        padding: 20px;
+        text-decoration-color: aliceblue;
+    }
+    .login{
+        color:blue;
+        height: 60px;
+        width: 100px;
+        border-radius: 2px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .login:hover{
+        color: darkmagenta;
+    }
+    .userreg{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .label{
+        margin-right:50px;
+        text-align: center;
+    }
+
 }
 
 
