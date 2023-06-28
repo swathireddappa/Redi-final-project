@@ -1,5 +1,5 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 function Itlpage() {
 
@@ -36,7 +36,11 @@ const navigate = useNavigate()
           The sea surrounds Italy, and mountains crisscross the interior, dividing it into regions.
           </p>
           <br />
+          <Link to='/page2'>
+
           <button className='italbak'>Back</button>
+          </Link>
+        
           <button onClick={click} className='book' > Book</button>
         </div>
 

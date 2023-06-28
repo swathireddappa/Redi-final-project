@@ -13,6 +13,8 @@ function Parispage() {
   return (
     <div>
             <h2>Paris</h2>
+            <div className='grow'>
+
             <div className='prg1'>
           <img className='imgp2' src="https://ik.imagekit.io/8sp02fxgg/paris1.webp?updatedAt=1686862851956" alt="" />
           <p className='pgdesc'>Paris (nicknamed the "City of light") is the capital city 
@@ -31,14 +33,18 @@ function Parispage() {
           the population of the Paris area rises to 10.7 million people...</p>
         </div>
 
+        <div className='prg1'>
+          <img className='imgp2' src="https://ik.imagekit.io/8sp02fxgg/paris2.webp?updatedAt=1686862851995" alt="" />
+          <p className='pgdesc'>Paris is known for its gorgeous, imposing monuments. ...</p>
+
+        </div>
+
         <Link to="/page2" ><button className="mchhme">Return</button></Link>
               
-              <button onClick={click} > Book</button>
+              
               <button onClick={click} className='book' > Book</button>
-
-
-
-    </div>
+            </div>
+            </div>
   )
 }
 

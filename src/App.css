@@ -111,8 +111,10 @@
 }
 .munich{
     color:blue;
-   background-color: azure;
+    background-color: azure;
     height: 40px;
+    margin-left: 110px;
+    margin-top: 10px;
     width: 100px;
     text-align: center;
     border: 1px solid black;
@@ -121,6 +123,8 @@
     font-weight: bold;  
 }
 .italy{
+    margin-left: 110px;
+    margin-top: 10px;
     color:blue;
    background-color: azure;
     height: 40px;
@@ -132,6 +136,8 @@
     font-weight: bold;
 }
 .barcelona{
+    margin-left: 110px;
+    margin-top: 10px;
     color:blue;
    background-color: azure;
     height: 40px;
@@ -143,6 +149,8 @@
     font-weight: bold;
 }
 .prague{
+    margin-left: 110px;
+    margin-top: 10px;
     color:blue;
    background-color: azure;
     height: 40px;
@@ -154,6 +162,8 @@
     font-weight: bold;
 }
 .gdansk{
+    margin-left: 110px;
+    margin-top: 10px;
     color:blue;
    background-color: azure;
     height: 40px;
@@ -165,6 +175,8 @@
     font-weight: bold;
 }
 .switz{
+    margin-left: 110px;
+    margin-top: 10px;
     color:blue;
    background-color: azure;
     height: 40px;
@@ -297,15 +309,16 @@ h2{
 }
 .italbak{
     height: 50px;
-    width: 200px;
+    width: 100px;
     color: brown;
-    background-color: gray;
+    background-color: lightgray;
     margin-left: 250px;
     border: 2px;
     border-radius: 6px;
     text-align: center;
     font-style: italic;
     font-weight: bolder;
+    margin: 20px;
 }
 
 .prg1{
@@ -338,13 +351,7 @@ h2{
     margin-left: 30px;
     margin-top: 30px;
 }
-.prrtbtn{
-    height: 100px;
-    width: 200px;
-    color: black;
-    font-style: italic;
-    text-align: center;
-}
+
 .gdbtn{
     height: 100px;
     width: 200px;
@@ -493,28 +500,29 @@ h4{
         color:darkcyan;
     }
     .grow{
-        background-color:linen ;
+        background-color:lavenderblush ;
         border: 10px  ;
-        padding: 100px;
+        padding: 40px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        gap: 60px;
+        gap: 30px;
     }
     .prg1{
         height: 470px;
-        width: 390px;
+        width: 360px;
     }
     .imgp2{
         height:340px;
-        width: 320px; 
+        width: 310px; 
     }
     .prg2{
         height: 470px;
         width: 390px;
     }
     .mchhme{
+        text-align: center;
         color:  darkolivegreen;
         border-style: none;
         margin-left: 60px;
@@ -529,7 +537,16 @@ h4{
         width: 300px;
         border-radius: 10px;
     }
-    
+    .italbak{
+        height: 50px;
+        width: 100px;
+        color: darkviolet;
+        background-color: rgb(219, 244, 244);
+    }
+    .italbak:hover{
+        color: darkgreen;
+        font-size: large;
+    }
 }
 
 
