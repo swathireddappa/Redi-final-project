@@ -35,6 +35,8 @@ function AdminPage() {
             
              return (
 
+                <div className='adminpage1'>
+
              <div className='adminpage'>
         
               
@@ -48,7 +50,8 @@ function AdminPage() {
 
 
 
-    </div>
+         </div>
+                </div>
   )
 }
 

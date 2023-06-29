@@ -18,7 +18,7 @@ import Userdetail from './Loginpages.jsx/Userdetail';
 import axios from 'axios';
 import Dashboard from './Loginpages.jsx/Dashboard';
 import Amount from './Loginpages.jsx/Amount '; 
-import Lastpage from './Loginpages.jsx/lastpage';   
+import Lastpage from './Loginpages.jsx/Lastpage';   
 
 
 function App() {

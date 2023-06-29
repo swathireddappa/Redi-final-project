@@ -23,9 +23,9 @@ function go(){
   return (
 
     <div className='nav'>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 nav">
   { <div className="flex-1">
-    <a className="btn btn-ghost normal-case text-xl">Travel - App</a>
+    <a className="btn btn-ghost normal-case text-xl "><span>Travel App !!!</span></a>
   </div> }
  
   {/* <div className="flex-none">

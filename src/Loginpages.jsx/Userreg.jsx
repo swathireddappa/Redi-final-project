@@ -55,10 +55,10 @@ function go(){
     
     
     <div>
-        <h3>Please fill the below  " Details " ......</h3>
 
       <div className='userreg'>
 
+        <h3>Please fill the below  " Details " ......</h3> <br />
 
             <form  onSubmit={submit} action="">
 
@@ -87,19 +87,34 @@ function go(){
                 <h4>Select the city</h4>
                 <div className='input'>
 
+                <label htmlFor="munich">Munich
                 <input type="checkbox" name="city" id="munich"  />
-                <label htmlFor="munich">Munich</label>
-                <span>Italy</span>
-                <input type="checkbox" name="italy" id="" value="italy" onChange={(c) => changeCity(c)} />
+                </label>
                 
-                <span>Barcelona</span>
+                <label htmlFor="">
+                Italy
+                <input type="checkbox" name="italy" id="" value="italy" onChange={(c) => changeCity(c)} />
+                </label>
+                
+               <label htmlFor="Barcelona">
+                Barcelona
                 <input type="checkbox" name="city" id="" value="barcelona" onChange={(c) => changeCity(c)} />
-                <span>Prague</span>
+               </label>
+
+                <label htmlFor="">
+                  Prague
                 <input type="checkbox" name="city" id="" value="prague" onChange={(c) => changeCity(c)} />
-                <span>Gdansk</span>
+                  </label>
+                  
+             <label htmlFor="">
+              Gadansk
                 <input type="checkbox" name="city" id=""  value="gdansk" onChange={(c) => changeCity(c)} />
-                <span>Paris</span>
+             </label>
+
+               <label htmlFor="">
+                  Paris
                 <input type="checkbox" name="city" id="" value="paris" onChange={(c)=> changeCity(c)} />
+               </label>
                     </div>
             
                 <button className='submit'  onClick={go}  >Submit</button>

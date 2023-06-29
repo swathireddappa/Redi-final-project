@@ -5,13 +5,13 @@ function Lastpage() {
 
 
     return(
-    <div>
-        <h1>Thank You for choosing the trip .....</h1>
+    <div >
 
-        <img src="https://www.wishesmsg.com/wp-content/uploads/Happy-Journey-Wishes.jpg" alt="" />
+       
+        <img  className='lastimg' src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e887f1094f67_template_image_1586003728.webp" alt="" />
            
 
-        <h3>We will contact you soon...</h3>
+       
 
     </div>
   )
