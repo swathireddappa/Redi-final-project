@@ -1,18 +1,11 @@
 import React from 'react'
 
 function Lastpage() {
+  return (
+    <div className='lastimg'>
+        
 
-
-
-    return(
-    <div >
-
-       
-        <img  className='lastimg' src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e887f1094f67_template_image_1586003728.webp" alt="" />
-           
-
-       
-
+        <img src="https://www.abbottcards.com/images/TR217-W.jpg" alt="" />
     </div>
   )
 }

@@ -18,7 +18,7 @@ import Userdetail from './Loginpages.jsx/Userdetail';
 import axios from 'axios';
 import Dashboard from './Loginpages.jsx/Dashboard';
 import Amount from './Loginpages.jsx/Amount '; 
-import Lastpage from './Loginpages.jsx/lastpage';
+
 
 
 
@@ -65,8 +65,7 @@ function App() {
       <Route path='/userdetail' element={<Userdetail orders={orders}   /> } />
       <Route path ='/dashboard' element={<Dashboard />} />
       <Route path ='/amount' element={<Amount orders={orders} setorders={setorders} />} />
-      <Route path='/lastpage' element={<Lastpage />} />
-
+      
 
 
       </Routes>
