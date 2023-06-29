@@ -18,6 +18,9 @@ import Userdetail from './Loginpages.jsx/Userdetail';
 import axios from 'axios';
 import Dashboard from './Loginpages.jsx/Dashboard';
 import Amount from './Loginpages.jsx/Amount '; 
+import Thanku from './Loginpages.jsx/Thanku';
+
+
 
 
 
@@ -65,6 +68,8 @@ function App() {
       <Route path='/userdetail' element={<Userdetail orders={orders}   /> } />
       <Route path ='/dashboard' element={<Dashboard />} />
       <Route path ='/amount' element={<Amount orders={orders} setorders={setorders} />} />
+      <Route path='/thanku' element={<Thanku />} />
+      
       
 
 

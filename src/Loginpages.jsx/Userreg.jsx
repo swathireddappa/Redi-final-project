@@ -47,7 +47,7 @@ setCity(e.target.value)
 const navigate =useNavigate()
 
 function go(){
-  navigate('/lastpage')
+  navigate('/Thanku')
 }
  
   return (

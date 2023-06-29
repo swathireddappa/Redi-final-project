@@ -5,7 +5,7 @@ function Userdetail({orders}) {
 
   return (
 
-    <div>
+    <div className='user'>
       <h3>User Details</h3>
        
     
@@ -13,7 +13,6 @@ function Userdetail({orders}) {
           <p>  Name :  { i.name}</p> 
           <p> Phone :  {i.Contact}</p>
           <p> Kids :  {i.kids}</p>
-
           <p>Adults : {i.adults}</p>
           <p>Email :  {i.email}</p>
           <p>Checkin :  {i.Checkin}</p>
